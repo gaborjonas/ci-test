@@ -29,7 +29,7 @@ body:
       label: What was the expected result?
       placeholder: I expected this to happen
   - type: dropdown
-    id: assign
+    id: device
     attributes:
       label: "Device"
       options:
@@ -37,7 +37,7 @@ body:
         - "Mobile"
         - "Tablet"
     - type: dropdown
-    id: assign
+    id: browser
     attributes:
       label: "Browser"
       options:
