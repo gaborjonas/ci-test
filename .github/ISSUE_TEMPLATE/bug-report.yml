@@ -28,16 +28,27 @@ body:
     attributes:
       label: What was the expected result?
       placeholder: I expected this to happen
+  - type: dropdown
+    id: assign
+    attributes:
+      label: "Device"
+      options:
+        - "Desktop"
+        - "Mobile"
+        - "Tablet"
+    - type: dropdown
+    id: assign
+    attributes:
+      label: "Browser"
+      options:
+        - "Chrome"
+        - "Safari"
+        - "Firefox"
+        - "Brave"
   - type: textarea
     id: screenshots
     attributes:
       label: Put here any screenshots or videos (optional)
-  - type: dropdown
-    id: assign
-    attributes:
-      label: "Would you like to work on this issue?"
-      options:
-        - "Yes"
   - type: markdown
     attributes:
       value: |
